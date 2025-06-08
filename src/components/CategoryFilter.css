@@ -1,0 +1,33 @@
+.selectData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.selectData select {
+  background: rgba(255, 255, 255, 0.05);
+  color: #f5f5f5;
+  font-size: 1rem;
+  padding: 12px 20px;
+  border: 1px solid #ffffff30;
+  border-radius: 30px;
+  outline: none;
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  appearance: none;
+  transition: all 0.3s ease;
+  min-width: 220px;
+}
+
+/* On focus */
+.selectData select:focus {
+  border-color: #ffffff60;
+  background-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+/* Optional: Custom dropdown arrow */
+.selectData select::-ms-expand {
+  display: none;
+}
