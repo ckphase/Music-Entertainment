@@ -1,11 +1,15 @@
-import React from 'react'
-import './CategoryFilter.css'
-const CategoryFilter = () => {
+import React from 'react';
+import './CategoryFilter.css';
+
+const CategoryFilter = ({ selectedCategory, onCategoryChange }) => {
   return (
     <>
-    <div className="selectData">
+      <div className="selectData">
         <div className="custom-select-wrapper">
-            <select>
+          <select
+            onChange={(e) => onCategoryChange(e.target.value)}
+            value={selectedCategory}
+          >
             <option value="All">All</option>
             <option value="Healing">Healing</option>
             <option value="Emotional">Emotional</option>
@@ -19,11 +23,11 @@ const CategoryFilter = () => {
             <option value="Beginner">Beginner</option>
             <option value="Intermediate">Intermediate</option>
             <option value="Advanced">Advanced</option>
-            </select>
+          </select>
         </div>
-    </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default CategoryFilter
+export default CategoryFilter;
