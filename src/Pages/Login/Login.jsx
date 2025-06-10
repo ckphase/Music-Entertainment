@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Login.css';
 import { useNavigate } from 'react-router-dom';
+import { s } from 'framer-motion/client';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -26,14 +27,13 @@ const Login = () => {
       navigate('/signup');
       return;
     }
-
-    // check if the username & password match
     if (
       storedData.username === userData.username &&
       storedData.password === userData.password
     ) {
       alert('Login successful!');
-      navigate('/gallery'); // or your main page
+      console.log(userData.email,storedData.email);
+      console.log(userData.username,storedData.username);
     } else {
       alert('Incorrect username or password.');
     }

@@ -4,99 +4,130 @@ export const imageData = [
     name: 'Spring Day',
     category: 'Healing',
     url: 'https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'A deeply emotional track reflecting on loss and longing, considered one of BTS’s most poetic songs.',
     benefits: 'Brings comfort and emotional warmth.',
     posture: 'Listening',
-    difficulty: 'Beginner'
+    difficulty: 'Beginner',
+    release_date: '2017-02-13',
+    awards: ['Song of the Year – Melon Music Awards (2017)', 'Best Song – Golden Disc Awards (2018)'],
+    album: 'You Never Walk Alone'
   },
   {
     image_id: 2,
     name: 'Dynamite',
-    description: 'A bright, disco-pop track that lifts your energy.',
     category: 'Energetic',
     url: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'A bright, disco-pop track that lifts your energy and made BTS the first Korean act to top the Billboard Hot 100.',
     benefits: 'Boosts mood and confidence.',
     posture: 'Dancing',
-    difficulty: 'Beginner'
+    difficulty: 'Beginner',
+    release_date: '2020-08-21',
+    awards: ['MTV VMA Best Pop (2020)', 'Billboard Music Award Top Selling Song (2021)'],
+    album: 'BE (Deluxe Edition)'
   },
   {
     image_id: 3,
     name: 'Butter',
-    description: 'A smooth and catchy pop song full of confidence.',
     category: 'Groovy',
     url: 'https://images.pexels.com/photos/327482/pexels-photo-327482.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'A smooth and catchy English-language single that dominated global charts with its confident charm.',
     benefits: 'Improves self-expression and energy.',
     posture: 'Grooving',
-    difficulty: 'Beginner'
+    difficulty: 'Beginner',
+    release_date: '2021-05-21',
+    awards: ['Billboard Music Award Top Selling Song (2022)', 'Guinness World Record for YouTube premiere views'],
+    album: 'Butter (Single)'
   },
   {
     image_id: 4,
     name: 'Life Goes On',
-    description: 'A gentle reminder that time heals all wounds.',
     category: 'Soothing',
     url: 'https://images.pexels.com/photos/355241/pexels-photo-355241.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'A gentle reminder that despite difficulties, life continues. First Korean song to top Billboard Hot 100.',
     benefits: 'Relieves anxiety and promotes peace.',
     posture: 'Reflective',
-    difficulty: 'Beginner'
+    difficulty: 'Beginner',
+    release_date: '2020-11-20',
+    awards: ['Melon Music Top 10 Artist (2020)'],
+    album: 'BE'
   },
   {
     image_id: 5,
     name: 'Boy With Luv',
-    description: 'An upbeat track about the beauty of small moments.',
     category: 'Romantic',
     url: 'https://images.pexels.com/photos/169766/pexels-photo-169766.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'An upbeat track about the beauty of small moments, featuring Halsey.',
     benefits: 'Inspires joy and appreciation.',
     posture: 'Playful',
-    difficulty: 'Beginner'
+    difficulty: 'Beginner',
+    release_date: '2019-04-12',
+    awards: ['Song of the Year – MMA (2019)', 'Best Collaboration – MAMA (2019)'],
+    album: 'Map of the Soul: Persona'
   },
   {
     image_id: 6,
     name: 'Fake Love',
-    description: 'A powerful message about self-discovery and pain.',
     category: 'Emotional',
     url: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'A powerful message about self-discovery and pain, exploring the complexities of love.',
     benefits: 'Encourages introspection.',
     posture: 'Deep Listening',
-    difficulty: 'Intermediate'
+    difficulty: 'Intermediate',
+    release_date: '2018-05-18',
+    awards: ['Top Social Artist – Billboard Music Awards (2018)'],
+    album: 'Love Yourself: Tear'
   },
   {
     image_id: 7,
     name: 'Run BTS',
-    description: 'A hype track about energy, passion, and hustle.',
     category: 'Motivational',
     url: 'https://images.pexels.com/photos/1751249/pexels-photo-1751249.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'A high-energy track celebrating the members’ relentless journey and drive.',
     benefits: 'Boosts adrenaline and motivation.',
     posture: 'Hyped',
-    difficulty: 'Intermediate'
+    difficulty: 'Intermediate',
+    release_date: '2022-06-10',
+    awards: [],
+    album: 'Proof'
   },
   {
     image_id: 8,
     name: 'Euphoria',
-    description: 'A dreamy pop ballad of hope and love.',
     category: 'Uplifting',
     url: 'https://images.pexels.com/photos/230290/pexels-photo-230290.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'A dreamy solo by Jungkook filled with hope and longing.',
     benefits: 'Enhances hope and imagination.',
     posture: 'Uplifted',
-    difficulty: 'Beginner'
+    difficulty: 'Beginner',
+    release_date: '2018-08-24',
+    awards: [],
+    album: 'Love Yourself: Answer'
   },
   {
     image_id: 9,
     name: 'Black Swan',
-    description: 'An artistic piece about fear and creativity.',
     category: 'Artistic',
     url: 'https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'An introspective piece about artistic fear and inner turmoil.',
     benefits: 'Connects to inner fears and expression.',
     posture: 'Contemplative',
-    difficulty: 'Advanced'
+    difficulty: 'Advanced',
+    release_date: '2020-01-17',
+    awards: [],
+    album: 'Map of the Soul: 7'
   },
   {
     image_id: 10,
     name: 'No More Dream',
-    description: 'A bold track questioning societal expectations.',
     category: 'Rebellious',
     url: 'https://images.pexels.com/photos/164631/pexels-photo-164631.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'BTS’s debut song that boldly questions societal pressures on youth.',
     benefits: 'Encourages independent thinking.',
     posture: 'Reflective',
-    difficulty: 'Beginner'
+    difficulty: 'Beginner',
+    release_date: '2013-06-13',
+    awards: ['Rookie of the Year – Golden Disc Awards (2013)'],
+    album: '2 Cool 4 Skool'
   },
   {
     image_id: 11,

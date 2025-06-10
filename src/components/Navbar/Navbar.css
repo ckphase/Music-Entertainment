@@ -1,34 +1,60 @@
 /* Navbar Container */
 .navbar {
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
-  padding: 15px 30px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  padding: 12px 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   position: static;
+  width: 100%;
+  left: 0;
   top: 0;
-  z-index: 1000;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 999;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 /* Navigation Links */
 .navbar-nav .nav-link {
-  color: #000000;
-  margin: 0 14px;
+  color: #333;
+  margin: 0 12px;
   font-size: 1rem;
   font-weight: 500;
   position: relative;
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #7f5af0;
-  transform: scale(1.05);
+  color: #6a4c93;
+  transform: translateY(-1px);
 }
 
 .navbar-nav .nav-link.active {
-  color: #000000;
+  color: #6a4c93;
   font-weight: 600;
-  border-bottom: 2px solid #7f5af0;
+  border-bottom: 2px solid #6a4c93;
+  padding-bottom: 2px;
+}
+
+/* Welcome Text */
+.navbar-nav .nav-link strong {
+  color: #444;
+}
+
+/* Logout Button */
+.navbar-nav .btn {
+  background: transparent;
+  color: #6a4c93;
+  font-weight: 500;
+  border: 1px solid #6a4c93;
+  border-radius: 20px;
+  padding: 6px 16px;
+  transition: all 0.3s ease;
+  margin-top: 4px;
+}
+
+.navbar-nav .btn:hover {
+  background-color: #6a4c93;
+  color: #fff;
 }
 
 /* Search Form */
@@ -39,35 +65,35 @@
 
 /* Search Input */
 .form-control {
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #000000;
+  background-color: #fff;
+  color: #000;
   border: 1px solid #ccc;
   border-radius: 25px;
-  padding: 8px 16px;
+  padding: 8px 18px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 0.95rem;
   outline: none;
-  transition: border-color 0.3s ease;
-}
-
-.form-control::placeholder {
-  color: #555;
 }
 
 .form-control:focus {
-  border-color: #7f5af0;
+  border-color: #6a4c93;
+  box-shadow: 0 0 0 2px rgba(106, 76, 147, 0.2);
 }
 
+/* Search Button */
 .navbar form .btn {
-  background-color: #78c5d3 !important;
-  color: #222222 !important;
+  background-color: #6a4c93 !important;
+  color: #fff !important;
   border: none;
-  padding: 8px 20px;
+  padding: 8px 18px;
   border-radius: 25px;
-  margin-left: 8px;
-  font-weight: 600;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 0.95rem;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar form .btn:hover {
-  background-color: #005f5f !important;
+  background-color: #543b77 !important;
   color: #e0e0e0 !important;
 }
