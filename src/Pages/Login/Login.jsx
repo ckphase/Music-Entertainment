@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css';
 import { useNavigate } from 'react-router-dom';
-import { s } from 'framer-motion/client';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -34,6 +33,7 @@ const Login = () => {
       alert('Login successful!');
       console.log(userData.email,storedData.email);
       console.log(userData.username,storedData.username);
+      navigate('/');  
     } else {
       alert('Incorrect username or password.');
     }
@@ -66,6 +66,7 @@ const Login = () => {
               placeholder="Enter your password"
               required
               onChange={handleChange}
+              style={{ color: 'black' }}  
             />
           </div>
           <div className="btn-container">

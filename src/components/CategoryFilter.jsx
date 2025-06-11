@@ -12,18 +12,17 @@ const CategoryFilter = ({ selectedCategory, onCategoryChange }) => {
           value={selectedCategory}
         >
           <option value="All">All</option>
-          <option value="Healing">Healing</option>
-          <option value="Emotional">Emotional</option>
-          <option value="Heartfelt">Heartfelt</option>
-          <option value="Confident">Confident</option>
-          <option value="Playful">Playful</option>
-          <option value="Romantic">Romantic</option>
-          <option value="Reflective">Reflective</option>
-          <option value="Cheeky">Cheeky</option>
-          <option value="Relaxed">Relaxed</option>
-          <option value="Beginner">Beginner</option>
-          <option value="Intermediate">Intermediate</option>
-          <option value="Advanced">Advanced</option>
+          <option value="K-pop / Rap / Lyricism">K-pop / Rap / Lyricism</option>
+          <option value="K-pop / Ballad / Vocal">K-pop / Ballad / Vocal</option>
+          <option value="K-pop / Hip-Hop / Production">K-pop / Hip-Hop / Production</option>
+          <option value="K-pop / Dance / Hip-Hop">K-pop / Dance / Hip-Hop</option>
+          <option value="K-pop / Vocal / Contemporary Dance">K-pop / Vocal / Contemporary Dance</option>
+          <option value="K-pop / Soul / Jazz">K-pop / Soul / Jazz</option>
+          <option value="K-pop / Pop / R&B">K-pop / Pop / R&B</option>
+          <option value="K-pop / Vocal / Visual">K-pop / Vocal / Visual</option>
+          <option value="K-pop / Rap / Dance">K-pop / Rap / Dance</option>
+          <option value="K-pop / Hip-Hop / R&B">K-pop / Hip-Hop / R&B</option>
+          <option value="K-pop / Pop / Dance">K-pop / Pop / Dance</option>
         </select>
       </div>
     </div>

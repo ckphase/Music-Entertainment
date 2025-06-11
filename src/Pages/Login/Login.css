@@ -51,7 +51,7 @@
   border: 1px solid #333;
   border-radius: 8px;
   background-color: #1f1f1f;
-  color: #f5f5f5;
+  color: #000000;
   font-size: 1rem;
   transition: border 0.3s ease, box-shadow 0.3s ease;
 }

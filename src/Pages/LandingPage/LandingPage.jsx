@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom'
 
 
 const LandingPage = () => {
+  const navigate=useNavigate();
   const handleButtononClick = () => {
-    const navigate=useNavigate();
     navigate('/music');
   }
   return (
@@ -13,9 +13,9 @@ const LandingPage = () => {
         <div className="landing-page">
             <div className="hero-section">
                 <div className="hero-content">
-                    <h1>Welcome My World</h1>
-                    <p>Discover, listen, and enjoy your favorite music.</p>
-                    <button className="btn btn-primary" onClisk={()=>handleButtononClick()}>Get Started</button>
+                    <h1>Welcome The Music World</h1>
+                    <p>Discover your favorite artist—learn their name, birthdate, achievements, and inspiring journey. Explore the awards they’ve won and the story behind their most iconic songs, and connect with the music on a deeper level.</p>
+                    <button className="btn btn-primary" onClick={handleButtononClick}>Get Started</button>
                 </div>
             </div>
         </div>
