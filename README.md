@@ -30,7 +30,7 @@ A modern **music and entertainment web application** built using **React + Vite*
 
 ## Project Structure
 
-Music-Entertainment/
+Music-Entertainment/  
 │  
 ├── src/ # Source files (React components, pages, assets)  
 ├── index.html # Root HTML file  
