@@ -32,7 +32,7 @@ A modern **music and entertainment web application** built using **React + Vite*
 
 Music-Entertainment/
 │
-├── src/ # Source files (React components, pages, assets)
+├── src/ # Source files (React components, pages, assets) <br>
 ├── index.html # Root HTML file
 ├── package.json # Dependencies and scripts
 ├── vite.config.js # Vite configuration
