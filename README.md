@@ -1,13 +1,60 @@
-# React + Vite
+# Music Entertainment Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **music and entertainment web application** built using **React + Vite**, designed to provide users with an engaging platform to explore, enjoy, and experience the world of music.
 
-Currently, two official plugins are available:
+**Live Demo:** [music-entertainment.vercel.app](https://music-entertainment.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-```````
+- 🎧 **Interactive Landing Page** – Visually appealing homepage with smooth transitions and modern UI.  
+- 🧑‍🎤 **Artist & Album Sections** – Dedicated space for artists, albums, and playlists.  
+- 💬 **User Interaction** – Modal pop-ups, signup, and other interactive UI features.  
+- 🌈 **Responsive Design** – Optimized for both mobile and desktop experiences.  
+- ⚡ **Fast Performance** – Powered by **Vite** for blazing-fast build and hot module replacement (HMR).  
+- 🛠 **Clean Architecture** – Organized folder structure for easy scalability and maintenance.
+
+---
+
+## Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| Frontend | React (with Vite) |
+| Styling | CSS3 |
+| Configuration | ESLint |
+| Deployment | Vercel |
+
+---
+
+## Project Structure
+
+Music-Entertainment/
+│
+├── src/ # Source files (React components, pages, assets)
+├── index.html # Root HTML file
+├── package.json # Dependencies and scripts
+├── vite.config.js # Vite configuration
+├── eslint.config.js # ESLint rules
+└── vercel.json # Vercel deployment configuration
+
+
+---
+
+## Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/ckphase/Music-Entertainment.git
+
+# Navigate into the project folder
+cd Music-Entertainment
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
