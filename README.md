@@ -31,13 +31,13 @@ A modern **music and entertainment web application** built using **React + Vite*
 ## Project Structure
 
 Music-Entertainment/
-│
-├── src/ # Source files (React components, pages, assets) <br>
-├── index.html # Root HTML file
-├── package.json # Dependencies and scripts
-├── vite.config.js # Vite configuration
-├── eslint.config.js # ESLint rules
-└── vercel.json # Vercel deployment configuration
+│  
+├── src/ # Source files (React components, pages, assets)  
+├── index.html # Root HTML file  
+├── package.json # Dependencies and scripts  
+├── vite.config.js # Vite configuration  
+├── eslint.config.js # ESLint rules  
+└── vercel.json # Vercel deployment configuration  
 
 
 ---
